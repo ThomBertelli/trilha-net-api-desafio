@@ -26,7 +26,7 @@ namespace TrilhaApiDesafio.Controllers
             if(tarefa == null)
                 return NotFound();
             
-            return Ok();
+            return Ok(tarefa);
         }
 
         [HttpGet("ObterTodos")]
